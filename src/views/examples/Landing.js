@@ -17,14 +17,14 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.jpg";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
-import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+// import classnames from "classnames";
+// import promo1 from "/assets/img/theme/promp1.jpg";
+// import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+// import ill2 from "assets/img/ill/ill-2.svg";
+// import team1 from "assets/img/theme/team-1-800x800.jpg";
+// import team2 from "assets/img/theme/team-2-800x800.jpg";
+// import team3 from "assets/img/theme/team-3-800x800.jpg";
+// import team4 from "assets/img/theme/team-4-800x800.jpg";
 
 // reactstrap components
 import {
@@ -32,7 +32,7 @@ import {
   Button,
   Card,
   CardBody,
-  CardImg,
+  // CardImg,
   FormGroup,
   Input,
   InputGroupAddon,
@@ -91,7 +91,7 @@ class Landing extends React.Component {
                         and good presentation skills  with 2+ year experience .
 
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -102,7 +102,7 @@ class Landing extends React.Component {
                           </span>
                           <span className="btn-inner--text">Components</span>
                         </Button>
-                        {/* <Button
+                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -113,12 +113,13 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button> */}
-                      </div>
+                        </Button> 
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
               </Container>
+              
               {/* SVG separator */}
               <div className="separator separator-bottom separator-skew">
                 <svg
@@ -150,7 +151,7 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                         201 project
+                            201 project
                           </h6>
                           <p className="description mt-3">
                             <li>Nerd-Academy</li>
@@ -163,7 +164,7 @@ class Landing extends React.Component {
                               </li>
                               <li>then you can find it in your chart also you can remove the course if you do not need it </li>
                             </p>
-                           
+
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -196,9 +197,9 @@ class Landing extends React.Component {
                           <h6 className="text-success text-uppercase">
                             301 project                         </h6>
                           <p className="description mt-3">
-                            I should Create New WebSite With React with front end and good back end 
-                            and using differant tool to be smart 
-                            
+                            I should Create New WebSite With React with front end and good back end
+                            and using differant tool to be smart
+
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -268,18 +269,18 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={promo1}
+                    src={"https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80"}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                    {/* <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
-                    </div>
+                    </div> */}
                     <h3>future project</h3>
                     <p>
-                     I hope to combine my studies as Biomedical Engineer whith what i learn of brogramming 
-                     to create some thing smart.
+                      I hope to combine my studies as Biomedical Engineer whith what i learn of brogramming
+                      to create some thing smart.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -294,8 +295,8 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                            as I'm in 301 level I want to complete in last project using what 
-                            i learn in this level .
+                              as I'm in 301 level I want to complete in last project using what
+                              i learn in this level .
                             </h6>
                           </div>
                         </div>
@@ -312,20 +313,20 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">Biomedical Engineer
-                        At AlBadawneh Medical Service for more than a year .</h6>
+                              At AlBadawneh Medical Service for more than a year .</h6>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
-                          <div>
+                          {/* <div>
                             <Badge
                               className="badge-circle mr-3"
                               color="success"
                             >
                               <i className="ni ni-satisfied" />
                             </Badge>
-                          </div>
+                          </div> */}
                           {/* <div>
                             <h6 className="mb-0">
                               Super friendly support team
@@ -339,6 +340,22 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+          <Container>
+          
+          <Col className="order-md-2" md="6">
+         
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4r8gUXbeEz8Pg2hAYI2FwtX5Ei3h0lw5zA&usqp=CAU"}
+                  />
+                 
+                </Col>
+               
+                </Container>
+                <br></br>
+                <br></br>
+                <br></br>
           {/* <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
@@ -498,7 +515,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
             SVG separator */}
-            {/* <div className="separator separator-bottom separator-skew zindex-100">
+          {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -732,7 +749,7 @@ class Landing extends React.Component {
             </Container>
           </section> */}
           {/* <section className="section section-lg bg-gradient-default"> */}
-            {/* <Container className="pt-lg pb-300">
+          {/* <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
@@ -777,8 +794,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container> */}
-            {/* SVG separator */}
-            {/* <div className="separator separator-bottom separator-skew zindex-100">
+          {/* SVG separator */}
+          {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -869,13 +886,10 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <Download />
+          {/* <Download /> */}
         </main>
-        <CardsFooter />
-        <section className="My Background">
-          <img src="sihamKhaloof-portofolio/src/assets/img/theme/nerd.PNG"alt="nerd acadmy1"></img>
-          <img src="sihamKhaloof-portofolio/src/assets/img/theme/nerd2.PNG"alt="nerd acadmy2"></img>
-        </section>
+        {/* <CardsFooter /> */}
+       
       </>
 
     );
