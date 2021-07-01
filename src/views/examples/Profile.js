@@ -108,15 +108,15 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">15</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">5</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
+                          <span className="heading">100</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -125,7 +125,7 @@ class Profile extends React.Component {
                   <div className="text-center mt-5">
                     <h3>
                      Siham Khaloof{" "}
-                      <span className="font-weight-light">, 27</span>
+                      <span className="font-weight-light">, 29</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
